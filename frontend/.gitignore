@@ -26,6 +26,7 @@ dist-ssr
 backend/venv/
 _pycache_/
 *.pyc
+*.pyo
 
 # Secrets
 .env
@@ -35,3 +36,7 @@ token.pickle
 google_state.json
 google_state.pkl
 *.secret
+
+frontend/node_modules/
+frontend/dist/
+
